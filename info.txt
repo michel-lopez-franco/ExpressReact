@@ -5,3 +5,10 @@
 
 - npm install standard -D 
 
+
+Para poder trabajar con archivos jsx instalamos un trasnpilador llamado babel
+
+- npm install babel-register babel-preset-react -D
+
+- npm install @babel/register @babel/preset-react -D
+- npm install @babel/core @babel/register @babel/preset-react -D

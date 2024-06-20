@@ -1,10 +1,14 @@
+require('babel-register')({
+  presets: ['react']
+})
+
 const express = require('express')
 const app = express()
 
 const ReactDOMServer = require('react-dom/server')
 const React = require('react')
 
-const Componente = require('./Componente.jsx')
+const Componente = require('./Componente1.jsx')
 
 app.get('/', (req, res) => {
   const html = ReactDOMServer.renderToString(
